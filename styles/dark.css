@@ -1,6 +1,3 @@
-:root {
-}
-
 :root.theme-dark {
   --bg_path: url("../images/cover-image-dark.png");
   --bg_color: rgba(0, 0, 40, 1);
