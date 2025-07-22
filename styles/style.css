@@ -148,9 +148,9 @@ body {
   max-height: 4.4375rem;
   max-width: 30.6875rem;
 }
-.header_title_extended p {
-  padding: 0;
-  margin: 0;
+
+.header_title_extended span {
+  display: block;
 }
 
 p.text_main_title {
@@ -532,7 +532,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(6, auto);
     margin-top: 5rem;
-    list-style: 1.4625rem;
     font-size: 1.125rem;
     column-gap: 0.8rem;
   }
@@ -794,8 +793,6 @@ footer {
 
   .text_block {
     margin-top: 3.75rem;
-    max-width: auto;
-    max-height: auto;
     font: var(--main-font);
     line-height: 1.4625rem;
   }
