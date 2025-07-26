@@ -1,4 +1,9 @@
 :root {
+  --gap-md: 0.625rem;
+  --gap-lg: 1.25rem;
+  --gap-container: 2.5rem;
+  --gap-section: 3.065rem;
+
   --bg_path: url("../images/cover-image-dark.png");
   --bg_color: rgba(0, 0, 40, 1);
 
@@ -19,4 +24,13 @@
   --rec_display_switch: grid;
 
   --footer_title_large_shadow: none;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --gap-md: 0.625rem;
+    --gap-lg: 1.25rem;
+    --gap-container: 3.75rem;
+    --gap-section: 5rem;
+  }
 }
