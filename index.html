@@ -20,7 +20,7 @@
 
   <body class="page">
     <header class="header corner-decor">
-      <div class="header_controls_decoration_container">
+      <div class="header__controls-container">
         <nav class="header__theme-menu">
           <ul class="header__theme-menu-list">
             <li class="header__theme-menu-item">
@@ -47,10 +47,10 @@
             </li>
           </ul>
         </nav>
-        <span class="header_rec_block" aria-hidden="true">REC</span>
+        <span class="header__rec-label" aria-hidden="true">REC</span>
       </div>
-      <h1 class="header_title_large">no focus</h1>
-      <div class="header_title_extended title-decor">
+      <h1 class="header__title">no focus</h1>
+      <div class="header__subtitle title-decor">
         <span>Что делать, когда не можешь делать ничего</span>
         <span
           >Или почему нам так сложно сконцентрироваться, особенно когда очень
@@ -60,18 +60,14 @@
     </header>
 
     <main>
-      <div class="cards_section">
-        <section class="cards_container cards_container--focus_hard">
-          <h2
-            class="main_primary_title cards_container_header cards_container_header--focus_hard"
-          >
-            Почему сосредоточиться так сложно
-          </h2>
+      <div class="main__content">
+        <section class="text-section text-section_type_primary">
+          <h2 class="section__title">Почему сосредоточиться так сложно</h2>
 
-          <div class="cards--focus_hard">
-            <div class="card">
-              <h3 class="main_subsection_title title-decor">Многозадачность</h3>
-              <p class="card_body">
+          <div class="text-section__texts">
+            <div class="section__card">
+              <h3 class="card__title title-decor">Многозадачность</h3>
+              <p class="card__content">
                 Особенно сложно сосредоточиться, когда задач много и все они —
                 важные. Где же легендарная многозадачность, когда она так нужна
                 вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
@@ -86,9 +82,9 @@
               </p>
             </div>
 
-            <div class="card">
-              <h3 class="main_subsection_title title-decor">Дофамин</h3>
-              <p class="card_body">
+            <div class="section__card">
+              <h3 class="card__title title-decor">Дофамин</h3>
+              <p class="card__content">
                 С гормонами стресса всё понятно, но дальше — ещё интереснее. В
                 нашей невозможности сосредоточиться замешана и полная
                 противоположность стрессу — дофамин. Это вещество участвует в
@@ -103,14 +99,12 @@
           </div>
         </section>
 
-        <section class="cards_container cards_container--focus_reduction">
-          <h2 class="main_primary_title cards_container_header">
-            Что снижает концентрацию внимания?
-          </h2>
-          <div class="cards--focus_reduction">
-            <div class="card">
-              <h3 class="main_subsection_title title-decor">Многозадачность</h3>
-              <p class="card_body">
+        <section class="text-section text-section_type_secondary">
+          <h2 class="section__title">Что снижает концентрацию внимания?</h2>
+          <div class="text-section__texts">
+            <div class="section__card">
+              <h3 class="card__title title-decor">Многозадачность</h3>
+              <p class="card__content">
                 Как концентрация может снижаться из-за… концентрации? Любая
                 стрессовая ситуация (и резко меняющийся мир в целом) заставляет
                 наш мозг постоянно «сканировать» окружающую среду на предмет
@@ -120,9 +114,9 @@
               </p>
             </div>
 
-            <div class="card">
-              <h3 class="main_subsection_title title-decor">Еда</h3>
-              <p class="card_body">
+            <div class="section__card">
+              <h3 class="card__title title-decor">Еда</h3>
+              <p class="card__content">
                 «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
                 доставляют в мозг энергию и помогают ему лучше работать. Но
                 уходит эта энергия также быстро, как и приходит. А мы в
@@ -131,9 +125,9 @@
                 сонливость. И хотим ещё больше быстрых углеводов.
               </p>
             </div>
-            <div class="card">
-              <h3 class="main_subsection_title title-decor">Гаджеты</h3>
-              <p class="card_body">
+            <div class="section__card">
+              <h3 class="card__title title-decor">Гаджеты</h3>
+              <p class="card__content">
                 Да-да, это та самая ситуация, когда на экране ноутбука — код, в
                 наушниках — подкаст, а на компьютере фоном — ещё и видео с
                 забавными утятами. В результате мозг пытается переключиться с
@@ -147,22 +141,20 @@
           </div>
         </section>
 
-        <section class="cards_container cards_container--focus-howto">
-          <h2 class="main_primary_title card--focus-howto-header">
+        <section class="text-section text-section_type_primary">
+          <h2 class="section__title">
             Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
             секунд)
           </h2>
-          <div class="cards--focus-howto">
-            <h3
-              class="main_subsection_title title-decor cards_container_subheader"
-            >
+          <div class="text-section__texts">
+            <h3 class="card__title title-decor text-section__texts-title">
               5 простых (на самом деле не очень) советов
             </h3>
-            <div class="card">
-              <h4 class="main_subsection_sublevel_title title-decor">
+            <div class="section__card">
+              <h4 class="card__subtitle title-decor">
                 Представьте небо и облака
               </h4>
-              <p class="card_body">
+              <p class="card__content">
                 Или листья в ручье. Тут дело в лёгкой медитации, которая
                 помогает успокоиться. Ведь часто именно тревожные мысли о
                 сложных задачах как раз и мешают эти сложные задачи делать. В
@@ -174,11 +166,9 @@
               </p>
             </div>
 
-            <div class="card">
-              <h4 class="main_subsection_sublevel_title title-decor">
-                Включите музыку
-              </h4>
-              <p class="card_body">
+            <div class="section__card">
+              <h4 class="card__subtitle title-decor">Включите музыку</h4>
+              <p class="card__content">
                 Но не любую, и не любимую. Любимая может быть связана с сильными
                 положительными эмоциями, которые тоже очень сильно отвлекают.
                 Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
@@ -186,11 +176,9 @@
               </p>
             </div>
 
-            <div class="card">
-              <h4 class="main_subsection_sublevel_title title-decor">
-                Прогуляйтесь
-              </h4>
-              <p class="card_body">
+            <div class="section__card">
+              <h4 class="card__subtitle title-decor">Прогуляйтесь</h4>
+              <p class="card__content">
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
                 <a
                   href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
@@ -205,11 +193,9 @@
               </p>
             </div>
 
-            <div class="card">
-              <h4 class="main_subsection_sublevel_title title-decor">
-                Хорошо ешьте
-              </h4>
-              <p class="card_body">
+            <div class="section__card">
+              <h4 class="card__subtitle title-decor">Хорошо ешьте</h4>
+              <p class="card__content">
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
                 которые препятствуют резким скачкам сахара в крови. Например, с
                 высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
@@ -218,11 +204,9 @@
               </p>
             </div>
 
-            <div class="card">
-              <h4 class="main_subsection_sublevel_title title-decor">
-                Читайте
-              </h4>
-              <p class="card_body">
+            <div class="section__card">
+              <h4 class="card__subtitle title-decor">Читайте</h4>
+              <p class="card__content">
                 Настоящие бумажные книги. Это правда помогает с концентрацией:
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или
                 даже секунд. А вот интересная книга способна затянуть и на
@@ -234,35 +218,37 @@
       </div>
 
       <section class="gallery">
-        <h2 class="main_subsection_title title-decor">А можно в картинках?</h2>
-        <div class="gallery_container">
+        <h2 class="card__title title-decor">А можно в картинках?</h2>
+        <div class="gallery__container">
           <img
             src="./images/sunset.png"
-            class="item-large-top"
+            class="gallery__item gallery__item_type_wide-top"
             loading="lazy"
             alt="Рассвет над спокойным озером с фиолетовыми горами на горизонте и нежным градиентом неба"
           />
           <img
             src="./images/ice-cream.png"
-            class="item-tall-right"
+            class="gallery__item gallery__item_type_tall-right"
             loading="lazy"
             alt="Чаша с кексами-мордочками котиков под белым кремом с вафельными трубочками и мини-зонтиком"
           />
           <img
             src="./images/tape.png"
-            class="item-tall-left"
+            class="gallery__item gallery__item_type_tall-left"
             loading="lazy"
             alt="Винтажная аудиокассета крупным планом на фиолетовом фоне с элементами интерфейса плеера"
           />
           <img
             src="./images/books.png"
-            class="item-small-center"
+            class="gallery__item gallery__item_type_small-center"
             loading="lazy"
-            alt="Стопка разноцветных книг на сиреневом фоне, увенчанная чашкой с надписью “Read more” и звездочками"
+            alt="Стопка
+          разноцветных книг на сиреневом фоне, увенчанная чашкой с надписью
+          Read more и звездочками"
           />
           <img
             src="./images/street.png"
-            class="item-wide-bottom"
+            class="gallery__item gallery__item_type_wide-bottom"
             loading="lazy"
             alt="Пустая улочка японского городка на фоне розового заката с деревянными домами и проводами над дорогой"
           />
@@ -270,8 +256,8 @@
       </section>
     </main>
 
-    <footer class="corner-decor">
-      <h2 class="footer_title_large">focus</h2>
+    <footer class="footer corner-decor">
+      <h2 class="footer__title">focus</h2>
     </footer>
   </body>
 </html>
